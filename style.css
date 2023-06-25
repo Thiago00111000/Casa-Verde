@@ -1,8 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
-    --cor-de-fundo: white;
+    --cor-de-fundo: rgb(204, 240, 190);
+    --cor-do-texto: white;
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: 'Noto Serif', serif;
+} 
+
+header{
+    background-color: #45A635;
+    color: #fdffff;
+ }
+ 
+ .Cabeçalho{
+     text-align: center;
+     padding: 0;
+ }
+
+.banner{
+    display:inline;
+    justify-content:baseline;
+    width: 100%;
 }
 
+.topicos{
+    color: var(--cor-do-texto);
+    padding: 0 16px;
+    display:flexbox;
+    font-size:90%;
+}
+
+.título{
+    color: var(--cor-do-texto);
+    text-align: center;
+ }
+
+ .texto{
+    color: rgb(255, 255, 255);
+    margin: 0 16px;
+    padding: 20px 0;
+    justify-content: center;
+    text-align: center;
+    display:flexbox;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+ }
