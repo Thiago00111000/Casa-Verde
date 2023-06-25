@@ -7,16 +7,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herbarium</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <Header class="Cabeçalho">
-            <img class="banner" src="Desktop - 2.png" alt="error_404">
-            <l1 class="topicos">  Menu ></l1>
-            <l1 class="topicos">  Herbário ></l1>
-            <l1 class="topicos">  Biblioteca ></l1>
-            <l1 class="topicos">  Sobre ></l1>
+        <img class="banner" src="Desktop - 2.png" alt="error_404">
+        <select class="select" id="paginas" name="paginas" onchange="irParaPagina()">
+                <option value="https://pt.wikipedia.org/wiki/Menu"><l1 class="topicos">  Menu </l1></option>
+                <option value="https://pt.wikipedia.org/wiki/Herb%C3%A1rio"><l1 class="topicos">  Herbário </l1></option>
+                <option value="https://thiago00111000.github.io/Hymenaea-courbaril/"><l1 class="topicos">  Biblioteca </l1></option>
+                <option value="https://www.dicio.com.br/sobre/"><l1 class="topicos">  Sobre </l1></option>
+        </select>  
+        <script>
+            function irParaPagina() {
+                var select = document.getElementById("paginas");
+                var paginaSelecionada = select.value;
+                window.location.href = paginaSelecionada ;
+            }              
+        </script>   
     </Header>
     <section class="arquivo">
         <div class="text-1">

@@ -4,8 +4,9 @@
 }
 
 :root{
-    --cor-de-fundo: rgb(204, 240, 190);
+    --cor-de-fundo: rgb(255, 255, 255);
     --cor-do-texto: white;
+    --cor-do-header: #45A635;
 }
 
 body{
@@ -14,8 +15,8 @@ body{
 } 
 
 header{
-    background-color: #45A635;
-    color: #fdffff;
+    background-color: var(--cor-do-header);
+    color: var(--cor-do-texto);
  }
  
  .Cabeçalho{
@@ -29,11 +30,39 @@ header{
     width: 100%;
 }
 
+.select{
+    border: 0;
+    color: var(--cor-do-texto);
+    outline: none;
+    width: 100%;
+    height: 41.4px;
+    font-weight: 600;
+    padding: 9px 40px 9px 18px;
+    background-color: #45A635;
+    box-shadow: #257418;
+}
+
+.button{
+    border: 0;
+    color: var(--cor-do-texto);
+    outline: none;
+    width: 100%;
+    height: 41.4px;
+    font-weight: 600;
+    padding: 9px 40px 9px 18px;
+    background-color: #45A635;
+    box-shadow: #257418;
+}    
+
 .topicos{
     color: var(--cor-do-texto);
     padding: 0 16px;
     display:flexbox;
     font-size:90%;
+}
+
+.botão{
+    color: var(--cor-do-texto);
 }
 
 .título{
