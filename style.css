@@ -6,6 +6,7 @@
 :root{
     --cor-de-fundo: rgb(255, 255, 255);
     --cor-do-texto: white;
+    --segunda-cor-do-texto: rgb(0, 0, 0);
     --cor-do-header: #45A635;
 }
 
@@ -65,18 +66,32 @@ header{
     color: var(--cor-do-texto);
 }
 
+.text{
+    display: block;
+}
+
 .título{
-    color: var(--cor-do-texto);
+    color: var(--segunda-cor-do-texto);
     text-align: center;
+    padding: 3% 0;
+    font-size: 130%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+ }
+
+ .subtitle{
+    color: var(--segunda-cor-do-texto);
+    text-align: center;
+    margin: 0 16px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
  }
 
  .texto{
-    color: rgb(255, 255, 255);
+    color: var(--segunda-cor-do-texto);
     margin: 0 16px;
     padding: 20px 0;
     justify-content: center;
     text-align: center;
-    display:flexbox;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
  }
