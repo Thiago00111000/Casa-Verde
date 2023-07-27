@@ -90,8 +90,46 @@ header{
     color: var(--segunda-cor-do-texto);
     margin: 0 16px;
     padding: 20px 0;
-    justify-content: center;
-    text-align: center;
+    justify-content:center;
+    text-align:justify;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+ }
+
+ .caixas{
+    margin: 1%;
+
+ }
+
+ .boxes{
+    background-color: var(--cor-do-header);
+    border-color: black;
+}
+
+ .título-box{
+    color: var(--cor-do-texto);
+    text-align: center;
+    margin: 2%;
+    padding: 3% 0;
+    font-size: 130%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+ }
+
+ .boxes-sub{
+    background-color: var(--cor-de-fundo);
+    border-color: black;
+ }
+
+ .texto-box{
+    color: var(--segunda-cor-do-texto);
+    margin: 0 16px;
+    padding: 20px 0;
+    justify-content:center;
+    text-align:justify;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .imagem{
+    padding: 2%;
  }
