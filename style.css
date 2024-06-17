@@ -4,7 +4,7 @@
 }
 
 :root{
-    --cor-de-fundo: rgba(0, 0, 0, 0.397);
+    --cor-de-fundo: #01010B;
     --cor-do-texto: white;
     --segunda-cor-do-texto: rgb(0, 0, 0);
     --botao-ativo: #5c5c5477;
@@ -12,16 +12,9 @@
 }
 
 body{
-    background-image: url(Imgs/aipim.jpg);
     background-color: var(--cor-de-fundo);
     font-family:'Courier New', Courier, monospace;
     color: var(--branco);
-    height: 100%;
-    width: 100%;
-    background-size: 100%;
-    padding: 0px 20px;
-    size: 500px;
-    background-repeat:repeat;
     color: #ffffff;
 } 
 
@@ -29,21 +22,22 @@ body{
 
 header{
     color: var(--cor-do-texto);
+    border-bottom: 1px solid white ;
  }
 
  .Cabeçalho{
      text-align: center;
      padding: 0;
- }
-
-.banner{
-    display:inline;
-    justify-content:baseline;
-    width: 100%;
-    padding-bottom: 0;
-}
-
-input{
+    }
+    
+    .banner{
+        padding: 15px;
+        display:inline;
+        justify-content:baseline;
+        padding-bottom: 0;
+    }
+    
+    input{
     width: 100%;
     height: 34px;    
     padding-left: 3px;
@@ -65,7 +59,7 @@ input{
 
 /*itens*/
 
-.bookshelf{
+/*.bookshelf{
    text-align: center;
    padding: 50px 0px;
    text-shadow: #6b7c81;
@@ -81,13 +75,17 @@ input{
 a{
    color: #000;
    text-decoration: none;
-}
+   }
 
 .span{
-   display: none;
-}
-
+    display: none;
+    }*/
+    
 /*abas*/
+
+.arquivo{
+    padding-top: 2rem;
+}
 
 .C-principal{
     display: flex;
@@ -125,9 +123,9 @@ a{
     border-top: none;
 }
 
-.botao:first-child{
+/*.botao:first-child{
     border-radius: 40px 40px 0 0;
-}
+}*/
 
 .botoes{
     display: block;
@@ -163,33 +161,10 @@ a{
     font-style: italic;
 }
 
-.contador{
-    font-size: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contador-digito{
-    padding: 0 16px;
-    text-align: center;
-    min-width: 100px;
-}
-
-.contador-digito-numero{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 80px;
-    margin: 0;
-}
-
-.contador-digito-texto{
-    font-size: 25px;
-    color: var(--verde);
-    margin: 0;
-}
-
 @media screen and (min-width: 728px) {
+    body{
+        background-image: none;
+    }
     .botoes{
         display: flex;
     }
