@@ -18,6 +18,10 @@ body{
     color: #ffffff;
 } 
 
+footer{
+    background-color: var(--segunda-cor-do-texto);
+}
+
 /*cabeçalho*/ 
 
 header{
@@ -57,30 +61,6 @@ header{
     font-size: 30px;
 }
 
-/*itens*/
-
-/*.bookshelf{
-   text-align: center;
-   padding: 50px 0px;
-   text-shadow: #6b7c81;
-   grid-template-columns: 20% 20% 20% 20% 20%;
-   list-style-type: none;
-}
-
-.itens{
-   padding: 0px 20px;
-   size: 50% ;
-}
-
-a{
-   color: #000;
-   text-decoration: none;
-   }
-
-.span{
-    display: none;
-    }*/
-    
 /*abas*/
 
 .arquivo{
@@ -168,10 +148,10 @@ a{
     .botoes{
         display: flex;
     }
-    .botao:first-child{
+    .botao.pepo:first-child{
         border-radius: 40px 0 0 0;
     }
-    .botao:last-child{
+    .botao.pepo:last-child{
         border-radius: 0 40px 0 0;
     }
 }
