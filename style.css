@@ -154,6 +154,14 @@ header{
     margin-inline-end: 80px;
 }
 
+.img{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 @media screen and (min-width: 728px) {
     body{
         background-image: none;
