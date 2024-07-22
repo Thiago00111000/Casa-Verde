@@ -18,9 +18,40 @@ body{
     color: #ffffff;
 } 
 
+a{
+    color: var(--cor-do-texto);
+    text-decoration: none;
+ }
+
 footer{
-    background-color: var(--segunda-cor-do-texto);
+    color: var(--cor-do-texto);
+    padding: 0 16px;
+    padding-top: 15px;
+    display:flexbox;
+    font-size: 10px;
+    justify-content: center;
+    text-align: center;
 }
+
+/*Relogio*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock {
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 3%;
+    color: #fff;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    height: 100px;
+    width: 250px;
+  }
 
 /*cabeçalho*/ 
 
@@ -59,6 +90,14 @@ header{
     padding-bottom: 5px;
     display:inline-block;
     font-size: 30px;
+}
+
+#title{
+    font-family: "Spectral SC", serif;
+    font-size: 4em;
+    font-weight: 200;
+    text-align: center;   
+    text-shadow: 8%  #0c0b0b;
 }
 
 /*abas*/
@@ -154,14 +193,6 @@ header{
     margin-inline-end: 80px;
 }
 
-.img{
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 @media screen and (min-width: 728px) {
     body{
         background-image: none;
@@ -174,5 +205,12 @@ header{
     }
     .botao.pepo:last-child{
         border-radius: 0 40px 0 0;
+    }
+}
+
+@media screen and (min-width: 460px) {
+    #title{
+        font-size: 8em;
+        text-align: left;
     }
 }
