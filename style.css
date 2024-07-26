@@ -9,6 +9,7 @@
     --segunda-cor-do-texto: rgb(0, 0, 0);
     --botao-ativo: #5c5c5477;
     --texto-fundo: #a8a4a485;
+    --preto: black;
 }
 
 body{
@@ -58,6 +59,7 @@ footer{
 header{
     color: var(--cor-do-texto);
     border-bottom: 1px solid white ;
+    background-image: linear-gradient(to bottom, var(--preto), var(--cor-de-fundo));
  }
 
  .Cabeçalho{
