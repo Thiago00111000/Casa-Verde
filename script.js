@@ -11,3 +11,20 @@ for(let i=0; i < botoes.length; i++){
         texto[i].classList.add("ativo");
     }
 }
+
+const imagensAleatorias = [
+"Imgs/milho.jpg",
+];
+
+function getRandomIndex(max) {
+return Math.floor(Math.random() * max);
+}
+
+
+function definirImagemAleatoria() {
+const randomIndex = getRandomIndex(imagensAleatorias.length);
+const randomImageUrl = imagensAleatorias[randomIndex];
+document.body.style.backgroundImage = `url("${randomImageUrl}")`;
+}
+
+window.onload = definirImagemAleatoria;

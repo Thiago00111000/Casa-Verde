@@ -13,6 +13,7 @@
 }
 
 body{
+    background-image: url();
     background-color: var(--cor-de-fundo);
     font-family:'Courier New', Courier, monospace;
     color: var(--branco);
@@ -104,6 +105,11 @@ header{
 
 /*abas*/
 
+.img{
+    text-align: center;
+    padding: 25px;
+}
+
 .arquivo{
     padding-top: 2rem;
 }
@@ -172,7 +178,7 @@ header{
 }
 
 .aba-conteudo-titulo-principal{
-    font-size: 28px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -180,7 +186,7 @@ header{
     text-align: center;
     color: var(--verde);
     font-style: italic;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .text{
